@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "furrymod:blocks/geldoorhousing",
+    "up": "furrymod:blocks/geldoorhousing",
+    "north": "furrymod:blocks/geldoorhousing",
+    "east": "furrymod:blocks/geldoorhousing",
+    "south": "furrymod:blocks/geldoorhousing",
+    "west": "furrymod:blocks/geldoorhousing",
+    "particle": "furrymod:blocks/geldoorhousing"
+  }
+}

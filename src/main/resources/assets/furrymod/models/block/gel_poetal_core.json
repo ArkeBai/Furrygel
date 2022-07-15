@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "furrymod:blocks/gelpoetalcore",
+    "up": "furrymod:blocks/gelpoetalcore",
+    "north": "furrymod:blocks/gelpoetalcore",
+    "east": "furrymod:blocks/gelpoetalcore",
+    "south": "furrymod:blocks/gelpoetalcore",
+    "west": "furrymod:blocks/gelpoetalcore",
+    "particle": "furrymod:blocks/gelpoetalcore"
+  }
+}

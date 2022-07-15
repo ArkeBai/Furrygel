@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "furrymod:blocks/furrymineral",
+    "up": "furrymod:blocks/furrymineral",
+    "north": "furrymod:blocks/furrymineral",
+    "east": "furrymod:blocks/furrymineral",
+    "south": "furrymod:blocks/furrymineral",
+    "west": "furrymod:blocks/furrymineral",
+    "particle": "furrymod:blocks/furrymineral"
+  }
+}

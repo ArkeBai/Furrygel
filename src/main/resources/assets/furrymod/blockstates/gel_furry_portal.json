@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "furrymod:block/gel_furry_portal_ew"
+    },
+    "axis=x": {
+      "model": "furrymod:block/gel_furry_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "furrymod:blocks/crystal_block",
+    "up": "furrymod:blocks/crystal_block",
+    "north": "furrymod:blocks/crystal_block",
+    "east": "furrymod:blocks/crystal_block",
+    "south": "furrymod:blocks/crystal_block",
+    "west": "furrymod:blocks/crystal_block",
+    "particle": "furrymod:blocks/crystal_block"
+  }
+}

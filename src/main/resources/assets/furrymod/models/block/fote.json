@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "furrymod:blocks/gelgrassdown",
+    "up": "furrymod:blocks/gelgrassdown",
+    "north": "furrymod:blocks/gelgrassdown",
+    "east": "furrymod:blocks/gelgrassdown",
+    "south": "furrymod:blocks/gelgrassdown",
+    "west": "furrymod:blocks/gelgrassdown",
+    "particle": "furrymod:blocks/gelgrassdown"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "furrymod:custom/custom_model",
+  "textures": {
+    "all": "furrymod:blocks/aa",
+    "particle": "furrymod:blocks/aa",
+    "0": "furrymod:blocks/texture"
+  }
+}

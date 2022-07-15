@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "furrymod:items/a02047418d846cd1647899aef99b85f6"
+  }
+}

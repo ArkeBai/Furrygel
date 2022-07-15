@@ -1,0 +1,703 @@
+{
+  "mod_elements": [
+    {
+      "name": "Zhu",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhu"
+    },
+    {
+      "name": "Aa",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aa"
+    },
+    {
+      "name": "GelConveyorDoorHousing",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_conveyor_door_housing"
+    },
+    {
+      "name": "FurryTools",
+      "type": "tab",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_tools"
+    },
+    {
+      "name": "GelPortalCore",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_portal_core"
+    },
+    {
+      "name": "CrystalBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_block"
+    },
+    {
+      "name": "GelCrystalMineral",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_crystal_mineral"
+    },
+    {
+      "name": "GelBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_block"
+    },
+    {
+      "name": "GelGlass",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_glass"
+    },
+    {
+      "name": "Fote",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fote"
+    },
+    {
+      "name": "WGelSpase",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w_gel_spase"
+    },
+    {
+      "name": "GelFurry",
+      "type": "dimension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_furry",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "FurryMineral",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_mineral"
+    },
+    {
+      "name": "Crystal",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal"
+    },
+    {
+      "name": "GelKey",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_key"
+    },
+    {
+      "name": "Gel",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel"
+    },
+    {
+      "name": "FurryGeul",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_geul"
+    },
+    {
+      "name": "Geulsur",
+      "type": "overlay",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geulsur"
+    },
+    {
+      "name": "SafetyPlatform",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_platform"
+    },
+    {
+      "name": "GeulsurXianShiYouXiNeiDieJiaCeng",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geulsur_xian_shi_you_xi_nei_die_jia_ceng",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SafeTable",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safe_table"
+    },
+    {
+      "name": "GeulHUB",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB2",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB3",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB4",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB5",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB6",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB7",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB8",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeulHUB9",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geul_hub_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SafetyPlatformGengXinYouXiKe",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "safety_platform_geng_xin_you_xi_ke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FurryMendDangYouJianDianJiFangKuaiShiFangKuaiDeWeiZhi",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_mend_dang_you_jian_dian_ji_fang_kuai_shi_fang_kuai_de_wei_zhi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FurryMend",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_mend"
+    },
+    {
+      "name": "FurryMendCuse",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furry_mend_cuse"
+    },
+    {
+      "name": "Botten",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "botten"
+    },
+    {
+      "name": "GelFurryBlockDangShiTiZaiFangKuaiZhongPengZhuangShi",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_furry_block_dang_shi_ti_zai_fang_kuai_zhong_peng_zhuang_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GelFurryBlock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_furry_block"
+    },
+    {
+      "name": "GelFurryDangWanJiaJinRuWeiDuShi",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gel_furry_dang_wan_jia_jin_ru_wei_du_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sc",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc"
+    },
+    {
+      "name": "Vnb",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vnb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.furrymod.gel_furry": "Gel Furry Portal Igniter",
+      "item.furrymod.botten": "Botten",
+      "entity.furrymod.aa": "Aa",
+      "biome.furrymod.w_gel_spase": "W Gel Spase",
+      "item.furrymod.furry_geul": "Furry Geul",
+      "itemGroup.tabfurry_tools": "Furry Tools",
+      "entity.furrymod.zhu": "Zhu",
+      "block.furrymod.sc": "Sc",
+      "item.furrymod.gel": "Gel",
+      "item.furrymod.furry_mend": "Furry Mend",
+      "item.furrymod.gel_key": "Gel Key",
+      "block.furrymod.gel_portal_core": "Gel Portal Core",
+      "block.furrymod.gel_block": "Gel Block",
+      "block.furrymod.crystal_block": "Crystal Block",
+      "block.furrymod.gel_conveyor_door_housing": "Gel Conveyor Door Housing",
+      "block.furrymod.gel_glass": "Gel Glass",
+      "item.furrymod.zhu_spawn_egg": "Zhu Spawn Egg",
+      "block.furrymod.fote": "Fote",
+      "block.furrymod.furry_mineral": "Furry Mineral",
+      "block.furrymod.safety_platform": "Safety Platform",
+      "block.furrymod.gel_crystal_mineral": "Gel Crystal Mineral",
+      "item.furrymod.crystal": "Crystal",
+      "block.furrymod.gel_furry_block": "Gel Furry Block",
+      "item.furrymod.aa_spawn_egg": "Aa Spawn Egg"
+    },
+    "zh_cn": {
+      "item.furrymod.gel_furry": "Gel Furry Portal Igniter",
+      "item.furrymod.botten": "Botten",
+      "entity.furrymod.aa": "Aa",
+      "biome.furrymod.w_gel_spase": "W Gel Spase",
+      "item.furrymod.furry_geul": "Furry Geul",
+      "itemGroup.tabfurry_tools": "Furry Tools",
+      "entity.furrymod.zhu": "Zhu",
+      "block.furrymod.sc": "Sc",
+      "item.furrymod.gel": "Gel",
+      "item.furrymod.furry_mend": "Furry Mend",
+      "item.furrymod.gel_key": "Gel Key",
+      "block.furrymod.gel_portal_core": "Gel Portal Core",
+      "block.furrymod.gel_block": "Gel Block",
+      "block.furrymod.crystal_block": "Crystal Block",
+      "block.furrymod.gel_conveyor_door_housing": "Gel Conveyor Door Housing",
+      "block.furrymod.gel_glass": "Gel Glass",
+      "item.furrymod.zhu_spawn_egg": "Zhu Spawn Egg",
+      "block.furrymod.fote": "Fote",
+      "block.furrymod.furry_mineral": "Furry Mineral",
+      "block.furrymod.safety_platform": "Safety Platform",
+      "block.furrymod.gel_crystal_mineral": "Gel Crystal Mineral",
+      "item.furrymod.crystal": "Crystal",
+      "block.furrymod.gel_furry_block": "Gel Furry Block",
+      "item.furrymod.aa_spawn_egg": "Aa Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "furrymod",
+    "modName": "FurryMOD",
+    "version": "1.0.0",
+    "author": "Surface, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.furrymod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
